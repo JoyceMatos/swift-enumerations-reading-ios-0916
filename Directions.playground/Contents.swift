@@ -46,6 +46,9 @@ func playerDidMove(_ direction: Direction) {
     print("Player moved \(direction.excited)")
 }
 
+var direction4: Direction = .right
+playerDidMove(direction4)
+
 playerDidMove(direction1)
 playerDidMove(direction2)
 playerDidMove(direction3)
